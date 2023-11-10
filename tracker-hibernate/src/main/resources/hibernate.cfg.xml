@@ -17,11 +17,11 @@
         <property name="format_sql">true</property>
         <property name="use_sql_comments">true</property>
 
-        <mapping class="ru.job4j.Item" />
+        <mapping class="ru.job4j.tracker.Item" />
 <!--        <mapping class="ru.job4j.Car" />-->
-        <mapping class="ru.job4j.toone.Role" />
-        <mapping class="ru.job4j.toone.User" />
-        <mapping class="ru.job4j.toone.UserMessenger" />
+<!--        <mapping class="ru.job4j.toone.Role" />-->
+<!--        <mapping class="ru.job4j.toone.User" />-->
+<!--        <mapping class="ru.job4j.toone.UserMessenger" />-->
 <!--        <mapping class="ru.job4j.hql.Student" />-->
     </session-factory>
 </hibernate-configuration>

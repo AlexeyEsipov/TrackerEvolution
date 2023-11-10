@@ -8,11 +8,9 @@
 		http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
 		http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
 		http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
-    <include file="scripts/update_001.sql" relativeToChangelogFile="true"/>
-    <include file="scripts/update_002.sql" relativeToChangelogFile="true"/>
-    <include file="scripts/update_003.sql" relativeToChangelogFile="true"/>
-    <include file="scripts/update_004.sql" relativeToChangelogFile="true"/>
-    <include file="scripts/update_005.sql" relativeToChangelogFile="true"/>
-    <include file="scripts/update_006.sql" relativeToChangelogFile="true"/>
-    <include file="scripts/update_007.sql" relativeToChangelogFile="true"/>
+    <include file="scripts/001_ddl_create_items_table.sql" relativeToChangelogFile="true"/>
+<!--    <include file="scripts/003_ddl_create_roles_table.sql" relativeToChangelogFile="true"/>-->
+<!--    <include file="scripts/004_ddl_create_users_table.sql" relativeToChangelogFile="true"/>-->
+<!--    <include file="scripts/005_ddl_create_user_notification_table.sql" relativeToChangelogFile="true"/>-->
+<!--    <include file="scripts/006_ddl_create_participates_table.sql" relativeToChangelogFile="true"/>-->
 </databaseChangeLog>

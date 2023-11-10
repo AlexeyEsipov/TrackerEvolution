@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: cd tracker-console && mvn -B package --file pom.xml && cd ../tracker-hibernate && mvn -B package --file pom.xml && cd ../tracker-jbdc && mvn -B package --file pom.xml
+      run: cd tracker-console && mvn -B package --file pom.xml && cd ../tracker-hibernate && mvn -B package --file pom.xml && cd ../tracker-jdbc && mvn -B package --file pom.xml
 
 #      run: mvn -B package --file pom.xml
 #
